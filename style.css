@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+}
+
+body {
+background: linear-gradient(to bottom, 
+  #A2E2F0 0%, 
+  #A2E2F0 50%, 
+  #FFFFFF 100%);
+   }
+
+.logo {
+    display: block;
+    width: 18%;
+    max-width: 300px;
+    margin: 20px auto;
+
+}
+
+.titulo {
+    text-align: center;
+    color: #0077b6;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+main {
+
+    max-width: 500px;
+    width: 90%;
+    margin: 0 auto 40px;
+    padding: 44px 24px 23px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+label {
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+select,
+input {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+    cursor: pointer;
+}
+
+input {
+    cursor: text;
+}
+
+button {
+    border-radius: 5px;
+    background: linear-gradient(to right, #00C6FF, #0072ff);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    height: 48px;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.03);
+    opacity: 0.9;
+}
+
+button:active {
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+
+section {
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.arrow-img {
+    width: 40px;
+    margin: 15px 0;
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.currency {
+    color: #777777;
+    font-size: 14px;
+
+}
+
+.currency-value, .currency-value-to-convert {
+    color: #555555;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+@media (min-width: 768px) {
+    main {
+        width: 500px;
+    }
+}
