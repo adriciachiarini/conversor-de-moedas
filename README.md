@@ -18,4 +18,14 @@ O layout se adapta a diferentes tamanhos de tela, com visual limpo tanto no desk
 <img src="conversorpc-e.png" alt="Conversor de moedas - tela desktop euro" width="350">  
 
 **Visualização responsiva (celular):**  
+
 <img src="responsivoCelular.png" alt="Conversor de moedas - versão mobile" width="200">
+
+
+### 🚀 Como clonar este repositório
+
+Para clonar este projeto para sua máquina local, utilize o comando abaixo no seu terminal:
+
+```bash
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+
